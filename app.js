@@ -5,6 +5,7 @@ navigator.vibrate = navigator.vibrate||navigator.webkitVibrate||navigator.mozVib
 if(navigator.vibrate){
    vibrator.addEventListener("click",()=>{
      navigator.vibrate(2000)  
-     navigator.vibrate(0)  
+     console.log("It is working") 
+     console.log("brrrrrrr");
    })
 }
